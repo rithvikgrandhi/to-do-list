@@ -1,0 +1,71 @@
+h1 {
+
+    background-color: #181818;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+body {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.container {
+    padding: 10px;
+    border: 1px solid #bcb9b8;
+    width: 40%;
+    margin: auto;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    /* background-color: #181818; */
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+
+
+}
+
+.container input {
+    width: 78%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #252526;
+    color: aliceblue;
+}
+
+hr {
+    border: 0.5px solid #000000;
+    width: 100%;
+}
+
+.container .btn {
+    margin-top: 15 px;
+    width: 80px;
+    height: 35px;
+    color: rgb(255, 255, 255);
+    background-color: rebeccapurple;
+}
+
+.container li {
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container li a {
+    float: right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container #error {
+    color: red;
+    font-size: 14px;
+}
